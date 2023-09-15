@@ -1,0 +1,12 @@
+e:\DevelopmentEnvironments\C#\AsciiArtLibrary\bin\Debug\net7.0\AsciiArtLibrary.deps.json
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\bin\Debug\net7.0\AsciiArtLibrary.dll
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\bin\Debug\net7.0\AsciiArtLibrary.pdb
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.csproj.AssemblyReference.cache
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.AssemblyInfoInputs.cache
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.AssemblyInfo.cs
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.csproj.CoreCompileInputs.cache
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.dll
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\refint\AsciiArtLibrary.dll
+E:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\AsciiArtLibrary.pdb
+e:\DevelopmentEnvironments\C#\AsciiArtLibrary\obj\Debug\net7.0\ref\AsciiArtLibrary.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vpm7hPIFuZ9ohhrZLTWUvgTJx30hEgHyQ9loXAf5kHCUpK+kP81cmaGeMT/bo2w4SG6Q7erQD9uXHzCDrzNi4w==",
+  "success": true,
+  "projectFilePath": "e:\\DevelopmentEnvironments\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zach\\.nuget\\packages\\sixlabors.imagesharp\\3.0.2\\sixlabors.imagesharp.3.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
