@@ -10,27 +10,23 @@ namespace AsciiLiberary
 
     public class AsciiArtGenerator
     {
-        private  string imageLocation;
+        private Image<Rgba32> image;
         private readonly char[] asciiPixels = { ' ', '.', '-', '+', '*', 'w', 'G', 'H', 'M', '#', '&', '%' };
         private const double RedFactor = 0.241;
         private const double GreenFactor = 0.691;
         private const double BlueFactor = 0.068;
 
-        public AsciiArtGenerator(string imageLocation)
+        public AsciiArtGenerator(){}
+
+        public void SetNewImage(Stream imageStream)
         {
-            this.imageLocation = imageLocation;
+            this.image = Image.Load<Rgba32>(imageStream);
         }
 
-        public void setNewImageLocation(string imageLocation)
+        public string MakeAsciiArt(double imgScaleDivision, int degreesRotated)
         {
-            this.imageLocation = imageLocation;
-        }
-
-        public string MakeAsciiArt(string saveLocation, double imgScaleDivision, int degreesRotated)
-        {
-            using var originalImg = Image.Load<Rgba32>(imageLocation);
-            var rotatedImg = RotateImageBy90Degrees(originalImg, degreesRotated);
-            var img = ResizeImage(rotatedImg, (int)(originalImg.Width / imgScaleDivision), (int)(originalImg.Height / imgScaleDivision));
+            var rotatedImg = RotateImageBy90Degrees(image, degreesRotated);
+            var img = ResizeImage(rotatedImg, (int)(image.Width / imgScaleDivision), (int)(image.Height / imgScaleDivision));
             var sb = new StringBuilder();
 
             for (var y = 0; y < img.Height; y++)
